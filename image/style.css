@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    max-width: 900;
+    width: 90%;
+
+}
+
+#box{
+    width: 150px;
+    height: 150px;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: aquamarine;
+    float: left;
+    margin: 15px;
+}

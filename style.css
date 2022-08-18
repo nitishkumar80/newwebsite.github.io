@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin:0 px;
+  
+}
+
+
+h3{
+  color: #000;
+}
+
+header h1{
+  text-align: center;
+  font-family:Black Ops One;
+  font-size: 40px;
+  overflow: hidden;
+  color: white;
+  cursor:pointer;
+  
+}
+
+header h1:hover
+{
+color:yellow;
+}
+
+
+header {
+  padding: 40px;
+  background-image: url(./image/banner-1504653_1920.png);
+  
+  background-color: #111827;
+}
+
+.logo{
+  width: 200px;
+  float:left;
+  animation: float 4s linear infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+      box-shadow: 0 5px 15px 0px 
+      transform: translatey(0px);
+  }
+
+  50% {
+      box-shadow: 0 25px 15px 0px rgba(5, 1, 37, 0.2);
+      transform: translatey(-20px);
+  }
+}
+
+p{
+  color:blue;
+  font-size: 14px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  
+}
+
+span{
+  color:red;
+}
+
+.box1{
+background-color: #333;
+border:2px solid white;
+border-radius:4px;
+font-family:Black Ops One;
+cursor:pointer;
+}
+
+.box2{
+background-color: #333;
+border:2px solid white;
+font-family:Black Ops One;
+cursor:pointer;
+}
+
+.box3{
+color:red;
+background-color: #333;
+border:2px solid white;
+font-family:Black Ops One;
+cursor:pointer;
+}
+
+.box4{
+background-color: #333;
+border:2px solid white;
+font-family:Black Ops One;
+cursor:pointer;
+}
+
+
+
+
+
+
+main {
+  background-color:#C0C0C0;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+}
+
+section:nth-child(even) {
+  background-color: rgb(241, 241, 241);
+}
+
+section {
+  min-height: 100vh;
+}
+
+video {
+  padding: 10px;
+}
+
+iframe {
+  height: 75vh;
+}
+
+img {
+  padding: 10px;
+}
+
+section h5 {
+  margin: 40px;
+}
+
+footer {
+  background-color: rgb(51, 51, 51);
+  overflow: hidden;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
+footer a:hover
+{
+color:blue;
+}
+
+{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+  background-color: #111827;
+  color: white;
+  display: fle;
+  flex-wrap: wra;
+
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+h1 {
+  font-size: 6rem;
+  background: linear-gradient(to right, #fff 20%, #65C7F7 40%, #0052D4 60%, #fff 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+  to {
+      background-position: 100% center;
+  }
+}
+
+
+html, body{
+  display:fle;
+  height:100%;
+  width: 100%;
+  place-items:center;
+  background: 
+     linear-gradient(315deg, 
+                    #ffffff, 
+                    #d7e1ec );
+}
+.wrapper{
+  display:inline-flex;
+}
+
+.wrapper .icon{
+  margin: 0 20px;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  position: relative;
+  z-index:2;
+  color: black;
+}
+.wrapper .icon span{
+  position:relative;
+  z-index:2;
+  height: 60px;
+  width: 60px;
+  display:block;
+  background: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  border-radius:50%;
+  text-align:center;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span i{
+  font-size:25px;
+  line-height:60px;
+}
+.wrapper .icon .tooltip{
+  position:absolute;
+  top:0px;
+  background: #fff;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  font-size: 20px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  color:white;
+  opacity:0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip{
+  opacity:1;
+  pointer-events: auto;
+  top:-70px;
+}
+.wrapper .icon .tooltip:before{
+  position:absolute;
+  content:"";
+  height:15px;
+  width:15px;
+  bottom:-8px;
+  left:50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+.wrapper .icon:hover span,
+.wrapp .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.wrapper .icon:hover span{
+  color: #fff;
+}
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before{
+  background:#3B5999;
+}
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip:before{
+  background:#46C1F6;
+}
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip:before{
+  background:rgb(228, 134, 12);
+}
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip:before{
+  background:#de463b;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

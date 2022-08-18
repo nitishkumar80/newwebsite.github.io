@@ -1,0 +1,103 @@
+header{
+    text-align: center;
+    border: 20px;
+    padding: 40px;
+    color: white;
+    
+   
+
+}
+
+header.h1{
+    
+    background: linear-gradient(to right, #f32170,
+    #ff6b08, #cf23cf, #eedd44);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}
+
+h2.one{
+    border-style: solid;
+    border-width: 2px;
+    width: 155px;
+    background-color: blueviolet;
+    color: white;
+}
+
+p.one{
+  
+}
+
+h1.two{
+    border-style: solid;
+    border-width: 2px;
+    width: 155px;
+    background-color: rgb(20, 183, 238);
+    color: white;
+
+
+}
+
+h1.zero{
+    border-style: solid;
+    border-width: 2px;
+    width: 260px;
+    background-color: lightseagreen;
+    color: white;
+}
+h1.three{
+
+    border-style: solid;
+    border-width: 2px;
+    width: 180px;
+    background-color: lightseagreen;
+    color: white;
+    text-align: ;
+}
+
+h1.four{
+    border-style: solid;
+    border-width: 2px;
+    width: 190px;
+    background-color: lightseagreen;
+    color: white;
+    text-align: cente;
+
+}
+
+body{
+    background-color: rgb(192, 243, 172);
+   
+    display: inline;
+ 
+   
+    display: flx;
+    flex-wrap: wra;
+
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+header {
+    text-align: center;
+    font-family:Black Ops One;
+    font-size: 40px;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    cursor:pointer;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    
+}
+footer a {
+    text-decoration: none;
+    color:lightblue;
+   
+    
+}

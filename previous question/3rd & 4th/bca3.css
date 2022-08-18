@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0 px;
+    display:block ;
+    
+}
+
+.amity{
+    font-size:px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.logo{
+    width: 200px;
+    float:left;
+    animation: float 4s linear infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        box-shadow: 0 5px 15px 0px 
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(5, 1, 37, 0.2);
+        transform: translatey(-20px);
+    }
+}
+
+
+header{
+    text-align: center;
+    font-size: 25px;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    font-size: 20;
+    padding: 5px;
+    margin: 2px;
+}
+
+h2{
+    text-align: ;
+    text-indent: 20px;
+}
+h3{
+    font-size: x-large;
+    color: rgb(3, 3, 2);
+    text-align: ;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+
+  footer {
+    background-color: #333;
+    overflow: hidden;
+    text-align: end;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    
+    float: inline-end;
+    color: rgb(14, 204, 252);
+}
+footer a:hover
+{
+color:rgb(255, 255, 255);
+}
+
+span{
+    color: black;
+
+}
+.amity{
+    color: white;
+}
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    
+    height: 4px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
